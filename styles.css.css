@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(255, 255, 0, 0.1);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.impressionist-section {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.impressionist-object {
+    position: absolute;
+    background-color: yellow;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    color: yellow;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 0, 0.1);
+    border: 1px solid yellow;
+    color: white;
+}
+
+footer {
+    background-color: rgba(255, 255, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
